@@ -54,7 +54,7 @@ public class DiaryOracleDAO implements DAO {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-//단건조회
+//날짜로 단건조회
 	@Override
 	public DiaryVO selectDate(String date) {
 		DiaryVO vo = null;
@@ -73,12 +73,12 @@ public class DiaryOracleDAO implements DAO {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}JdbcUtil.disconnect(conn);		
-		return null;
+		return vo;
 	}
 
 	@Override
 	public List<DiaryVO> selectContent(String content) {
-		// TODO Auto-generated method stub
+
 		return null;
 	}
 //전체조회

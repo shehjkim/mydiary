@@ -19,4 +19,3 @@ public class Thread1 implements Runnable{
 
 	
 }
-r
